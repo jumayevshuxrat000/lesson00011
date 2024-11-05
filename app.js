@@ -45,17 +45,17 @@
 //while4
 {
     let n = 27;
-    let isPowerOfThree = true;
+    let Three = true;
     
     while (n > 1) {
         if (n % 3 !== 0) {
-            isPowerOfThree = false;
+            Three = false;
             break;
         }
         n /= 3;
     }
     
-    console.log(isPowerOfThree ? "3 ning darajasi" : "3 ning darajasi emas");
+    console.log(Three ? "3 ning darajasi" : "3 ning darajasi emas");
     
 }
 //while5
@@ -112,10 +112,10 @@
 {
     let n = 100;
     let k = 0;
-    let power = 1;
+    let count = 1;
     
-    while (power < n) {
-        power *= 3;
+    while (count < n) {
+        count *= 3;
         k++;
     }
     
@@ -126,10 +126,10 @@
 {
     let n = 100;
     let k = 0;
-    let power = 1;
+    let count = 1;
     
-    while (power <= n) {
-        power *= 3;
+    while (count <= n) {
+        count *= 3;
         k++;
     }
     
