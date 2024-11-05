@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R-Js</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">R-JS</div>
+        <input type="text" class="search" placeholder="Find something" />
+        <div class="nav-links">
+            <a class="nav__items" href="#">JavaScript</a>
+            <a class="nav__items" href="#">About JS</a>
+            <a class="nav__items" href="#">Lessons</a>
+            <a href="#" class="active">Tests</a>
+        </div>
+        <div class="notification">
+            <img src="./assets/notificaton.png" alt="Notifications" />
+        </div>
+        <div class="profile">
+            <img src="./assets/myphotofor.jpg" alt="Profile" />
+        </div>
+    </div>      
+    <div class="contianer">
+          <section class="hero">
+            <div class="hero__content">
+                <h1>JavaScript-ga kirish</h1>
+                <strong>Keling, JavaScript-ning nimasi o'ziga xosligini, u bilan nimaga erishishimiz mumkinligini va u bilan qanday boshqa texnologiyalar yaxshi o'ynashini ko'rib chiqaylik.</strong>
+                <h2>JavaScript uzi nima?</h2>
+                <p>JavaScript dastlab "veb-sahifalarni jonli qilish" uchun yaratilgan. Bu tildagi dasturlar skriptlar deb ataladi. Ular to'g'ridan-to'g'ri veb-sahifaning HTML-da yozilishi va sahifa yuklanganda avtomatik ravishda ishga tushishi mumkin. Skriptlar oddiy matn sifatida taqdim etiladi va bajariladi. Ularni ishga tushirish uchun maxsus tayyorgarlik yoki kompilyatsiya kerak emas. Bu jihatdan JavaScript Java deb ataladigan boshqa tildan juda farq qiladi.</p>
+            </div>
+            <div class="loader">
+                <div class="box">
+                  <div class="logo">
+                    <img style="margin-left: 20px;" width="30px" height="30px" src="./assets/programing.png" alt="">
+                  </div>
+                </div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+              </div>
+          </section> 
+
+          <h3 class="section__head">JavaScriptning turlari va qanday mano anglatadi?</h3>
+          <section class="js__types">
+            <div class="cards">
+                <div class="book">
+                    <p>For numbers of any kind: integer or floating-point, integers are limited by ±(253-1).</p>
+                    <div class="cover">
+                        <p>Number</p>
+                    </div>
+                   </div>
+                   <div class="book">
+                    <p>For integer numbers of arbitrary length.</p>
+                    <div class="cover">
+                        <p>Bigint</p>
+                    </div>
+                   </div>
+                   <div class="book">
+                    <p>True/False</p>
+                    <div class="cover">
+                        <p>Boolean</p>
+                    </div>
+                   </div>
+                   <div class="book">
+                    <p>For strings. A string may have zero or more characters, there’s no separate single-character type.</p>
+                    <div class="cover">
+                        <p>String</p>
+                    </div>
+                   </div> 
+                   <div class="book">
+                    <p>For unknown values – a standalone type that has a single value null</p>
+                    <div class="cover">
+                        <p>Null</p>
+                    </div>
+                   </div> 
+                   <div class="book">
+                    <p>for unassigned values – a standalone type that has a single value undefined</p>
+                    <div class="cover">
+                        <p>Underfined</p>
+                    </div>
+                   </div> 
+                   <div class="book">
+                    <p>Symbol for unique identifiers.</p>
+                    <div class="cover">
+                        <p>Symbol</p>
+                    </div>
+                   </div> 
+                   <div class="book">
+                    <p>And one non-primitive data type:
+                        object for more complex data structures.
+                    </p>
+                    <div class="cover">
+                        <p>Object</p>
+                    </div>
+                   </div> 
+            </div>  
+          </section>   
+          <section class="js-loop-section">
+            <div class="section__content">
+                <h3>O`zi Loop Nima?</h3>
+                <p>Looplar ma'lum bir shart bajarilgunga qadar ko'rsatmalar to'plamini qayta-qayta bajarish uchun ishlatiladi. Ko'pgina dasturlash tillarida sikllarning uch turi mavjud: for , while va do-while sikllari. For tsikli iteratsiyalar soni oldindan ma'lum bo'lganda ishlatiladi.</p>    
+            </div>
+            <div class="section__img">
+                <img src="./assets/image-removebg-preview.png" alt="">
+            </div>
+          </section>
+          <h3 class="section__head">Keling bularni kodlar bilan muhokama qilamiz</h3>
+          <section class="loop__cards">
+            <div class="card">
+                <div class="tools">
+                  <div class="circle">
+                    <span class="red boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green boxs"></span>
+                  </div>
+                </div>
+                <div class="card__content">
+                    <h5>Loop whilequyidagi sintaksisga ega:</h5>
+                    <p>while (condition) {
+                        // code
+                        // so-called "loop body"
+                    }
+                      </p>
+                      <strong>The conditionis truey bo'lsa-da, codefrom loop body si bajariladi.</strong>
+                </div>
+              </div>
+              <div class="card">
+                <div class="tools">
+                  <div class="circle">
+                    <span class="red boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green boxs"></span>
+                  </div>
+                </div>
+                <div class="card__content">
+                    <h5>Masalan, pastdagi sikl iwhile ni chiqaradi i < 3:</h5>
+                    <p>let i = 0;
+                        while (i < 3) { // shows 0, then 1, then 2
+                          alert( i );
+                          i++;
+                        }  
+                    </p>
+                    <strong>Loop body ning bitta bajarilishi iteratsiya deb ataladi . Yuqoridagi misoldagi halqa uchta takrorlashni amalga oshiradi.</strong>
+                </div>
+              </div>
+              <div class="card">
+                <div class="tools">
+                  <div class="circle">
+                    <span class="red boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green boxs"></span>
+                  </div>
+                </div>
+                <div class="card__content">
+                    <h5>Masalan, yozishning qisqaroq usuli while (i != 0):while (i)</h5>
+                    <p>let i = 3;
+                        while (i) { // when i becomes 0, the condition becomes falsy, and the loop stops
+                          alert( i );
+                          i--;
+                        }
+                    </p>
+                    <strong>Har qanday ifoda yoki o'zgaruvchi shunchaki taqqoslash emas, balki tsikl sharti</strong>
+                </div>
+              </div>
+              <div class="card">
+                <div class="tools">
+                  <div class="circle">
+                    <span class="red boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green boxs"></span>
+                  </div>
+                </div>
+                <div class="card__content">
+                    <h5>Shartni tekshirish sintaksisi yordamida pastadir tanasi ostiga o'tkazilishi mumkin do..while:</h5>
+                    <p>do {
+                        // loop body
+                      } whi
+                    </p>
+                    <strong>Loop avval tanani bajaradi, keyin holatni tekshiradi va haqiqat bo'lsa ham, uni qayta-qayta bajaradi.   </strong>
+                </div>
+              </div>
+              <div class="card">
+                <div class="tools">
+                  <div class="circle">
+                    <span class="red boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green boxs"></span>
+                  </div>
+                </div>
+                <div class="card__content">
+                    <h5>Masalan:</h5>
+                    <p>let i = 0;
+                        do {
+                          alert( i );
+                          i++;
+                        } while (i < 3);
+                    </p>
+                    <strong> Odatda, boshqa shakl afzal: while(…) {…}.</strong>
+                </div>
+              </div>
+              <div class="card">
+                <div class="tools">
+                  <div class="circle">
+                    <span class="red boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green boxs"></span>
+                  </div>
+                </div>
+                <div class="card__content">
+                    <h5>Loop formurakkabroq, lekin ayni paytda eng ko'p ishlatiladigan halqadir.</h5>
+                    <p>
+                        for (begin; condition; step) {
+                            // ... loop body ...
+                          }
+                    </p>
+                    <strong>Bu for sklida misolllar ishlab koramiz</strong>
+                </div>
+              </div>
+              <div class="card">
+                <div class="tools">
+                  <div class="circle">
+                    <span class="red boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green boxs"></span>
+                  </div>
+                </div>
+                <div class="card__content">
+                    <h5>Quyidagi tsikl dan gacha (lekin shu jumladan emas) alert(i)uchun ishlaydi :i03</h5>
+                    <p>
+                        for (let i = 0; i < 3; i++) { // shows 0, then 1, then 2
+                            alert(i);
+                          }
+                    </p>
+                    <strong>forKeling , bayonotni qisman ko'rib chiqaylik </strong>
+                </div>
+              </div>
+              <div class="card">
+                <div class="tools">
+                  <div class="circle">
+                    <span class="red boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow boxs"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green boxs"></span>
+                  </div>
+                </div>
+                <div class="card__content">
+                    <h5>Umumiy tsikl algoritmi quyidagicha ishlaydi:</h5>
+                    <p>for (let i = 0; i < 3; i++) {
+                        alert(i); // 0, 1, 2
+                      }
+                      alert(i); // error, no such variable
+                    </p>
+                    <strong>Bu erda "hisoblagich" o'zgaruvchisi ito'g'ridan-to'g'ri tsiklda e'lon qilinadi. Bu "inline" o'zgaruvchilar deklaratsiyasi deb ataladi.</strong>
+                </div>
+              </div>
+          </section>
+          <div class="body">
+            <div class="compiler">
+                <h2>Jonli JS Terminali</h2>
+                <textarea id="js-code" placeholder="Type your JavaScript code here..."></textarea>
+                <button onclick="runCode()">Run</button>
+                <h3>Output:</h3>
+                <div id="output"></div>
+              </div>
+            
+              <script src="script.js"></script>
+          </div>
+    </div> 
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>R-Js</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Tezkor Havolalar</h3>
+                <a href="#">Asosiy sahifa</a><br>
+                <a href="#">Biz haqimizda</a><br>
+            </div>
+            <div class="footer-section">
+                <h3>Bizga Ijtimoiy Tarmoqlarda Qo'shiling</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
